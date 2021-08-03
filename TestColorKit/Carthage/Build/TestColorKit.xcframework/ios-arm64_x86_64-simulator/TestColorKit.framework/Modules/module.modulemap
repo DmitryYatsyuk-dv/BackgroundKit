@@ -1,0 +1,11 @@
+framework module TestColorKit {
+  umbrella header "TestColorKit.h"
+
+  export *
+  module * { export * }
+}
+
+module TestColorKit.Swift {
+    header "TestColorKit-Swift.h"
+    requires objc
+}

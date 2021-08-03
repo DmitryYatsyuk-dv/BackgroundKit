@@ -1,5 +1,5 @@
 //
-//  GBViewController.swift
+//  TestColorViewController.swift
 //  TestColorKit
 //
 //  Created by Lucky on 03.08.2021.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-open class GBViewController: UIViewController {
+open class TestColorViewController: UIViewController {
     
     public func setBackgroundGradient(first: UIColor, second: UIColor) {
         let gradient = CAGradientLayer()
